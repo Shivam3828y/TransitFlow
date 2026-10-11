@@ -45,6 +45,12 @@ pages = [
         title="Analytics Dashboard",
         icon=":material/monitoring:",
     ),
+    st.Page(
+        "pages/SQL_Generator.py",
+        title="SQL Generator",
+        icon=":material/code:",
+    ),
+
 ]
 
 page = st.navigation(pages, position="sidebar")
